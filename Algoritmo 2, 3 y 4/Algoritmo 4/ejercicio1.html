@@ -1,0 +1,16 @@
+<script>
+
+
+    function printMayor(arrayX, y) {
+        var contador = 0;
+        for (let i = 0; i < arrayX.length; i++) {
+            //recorre arreglo arrayX
+            if (arrayX[i] > y) {
+                //compara el valor en la posicion "i" con el valor y
+                contador++;//suma 1 al contador
+            }
+        }
+        console.log(contador);
+    }
+    printMayor([1, 4, 6, 7, 5, 6, 4, 8, 12, 11, 5, 4, 10, 16], 5)
+</script>

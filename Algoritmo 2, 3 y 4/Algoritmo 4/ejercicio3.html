@@ -1,0 +1,17 @@
+<script>
+
+    function negativos(array) {
+        var x = [];
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] < 0) {
+                x.push("Dojo");
+            } else {
+                x.push(array[i]);
+            }
+        }
+        return x;
+    }
+    var arr = [1, 2, -3, -5, 5];
+    var res = negativos(arr);
+    console.log(res);
+</script>

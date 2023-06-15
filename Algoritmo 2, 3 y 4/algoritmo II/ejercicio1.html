@@ -1,0 +1,16 @@
+<script>
+    function printUpTo(x) {
+        if (x < 0) {
+            console.log("número negativo");
+            return false;
+        } else {
+            for (let i = 1; i <= x; i++) {
+                console.log(i);
+            }
+            return true;
+        }
+    }
+    printUpTo(1000);
+    let y = printUpTo(-10); y
+    console.log(y);
+</script>
